@@ -14,8 +14,11 @@ Connecting to a new host will automatically disconnect any existing OpenVPN inst
 
 ## Notes
 Not endorsed in any way by IPVanish.  Valid user account required.
+
 Round world flag icons from https://iconarchive.com/show/round-world-flags-icons-by-custom-icon-design.html
+
 Waving flag background images by luis_molinero, https://www.freepik.com/free-vector/waving-flag-icon-collection_1152871.htm
+
 Other icons from Ardis Icon Theme, https://iconduck.com/sets/ardis-icon-theme
 
 ## Bugs
