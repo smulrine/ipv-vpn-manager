@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+    <section id="plugin.program.vpnmanager">
+        <category id="config" label="30000" help="">
+            <group id="1" label="">
+                <setting label="30001" type="string" id="vpn_username" help="">
+                    <level>0</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30001</heading>
+                    </control>
+                </setting>
+                <setting label="30002" type="string" id="vpn_password" help="">
+                    <level>0</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30002</heading>
+                        <hidden>true</hidden>
+                    </control>
+                </setting>            
+                <setting label="30003" type="urlencodedstring" id="vpn_url" help="">
+                    <level>1</level>
+                    <default>https://account.ipvanish.com/serverList.xml</default>
+                    <constraints>
+                        <allowempty>false</allowempty>
+                    </constraints>
+                    <control type="edit" format="urlencoded">
+                        <heading>30003</heading>
+                    </control>
+                </setting>
+            </group>
+            <group id="2" label="">
+                <setting label="30004" type="boolean" id="use_sudo" help="">
+                    <level>1</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting label="30005" type="string" id="sudo_password" help="">
+                    <level>1</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30005</heading>
+                        <hidden>true</hidden>
+                    </control>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>

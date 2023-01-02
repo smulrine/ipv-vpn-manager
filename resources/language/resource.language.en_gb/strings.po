@@ -1,0 +1,84 @@
+# Kodi Media Center language file
+# Addon Name: VPN Manager
+# Addon id: plugin.program.vpnmanager
+# Addon Provider: smulrine
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Configuration"
+msgstr ""
+
+msgctxt "#30001"
+msgid "VPN Username"
+msgstr ""
+
+msgctxt "#30002"
+msgid "VPN Password"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Server URL"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Use sudo"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Sudo password"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Incorrect sudo password"
+msgstr ""
+
+msgctxt "#30007"
+msgid "No OpenVPN process found"
+msgstr ""
+
+msgctxt "#30008"
+msgid "OpenVPN client not found"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Failed to download IPVanish config file"
+msgstr ""
+
+msgctxt "#30010"
+msgid "OpenVPN disconnected"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Unable to disconnect OpenVPN"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Invalid VPN credentials"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Insufficient permissions to run OpenVPN"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Timed out connecting to VPN"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Connected to"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Disconnect VPN"
+msgstr ""
