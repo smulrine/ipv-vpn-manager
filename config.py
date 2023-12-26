@@ -61,6 +61,7 @@ server_countries = {
  'NO': 'Norway',
  'NZ': 'New Zealand',
  'PE': 'Peru',
+ 'PH': 'Philippines',
  'PK': 'Pakistan',
  'PL': 'Poland',
  'PT': 'Portugal',
