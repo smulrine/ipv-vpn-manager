@@ -64,6 +64,7 @@ def connect_host(country, city, host):
         remote_config = response.read()
       remote_config = remote_config.replace(b'ca ca.ipvanish.com.crt',b'ca '+bytes((os.path.join(config.addonhome, 'resources', 'ca.ipvanish.com.crt')), 'utf-8'))
       remote_config = remote_config.replace(b'auth-user-pass',b'auth-user-pass '+bytes(config.authfile, 'utf-8'))
+      remote_config = remote_config.replace(b'keysize',b'#keysize')
       if os.path.exists('/etc/openvpn/update-resolv-conf'):
         remote_config += b'script-security 2\nup /etc/openvpn/update-resolv-conf\ndown /etc/openvpn/update-resolv-conf\n'
       file = open(config.cfgfile, mode='wb')
